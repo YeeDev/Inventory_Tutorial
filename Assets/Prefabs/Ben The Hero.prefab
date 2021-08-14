@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 4906634697567050906}
   - component: {fileID: 4906634697567050905}
   - component: {fileID: 1522417367212200056}
+  - component: {fileID: 6193641300568486031}
   m_Layer: 0
   m_Name: Ben The Hero
   m_TagString: Untagged
@@ -262,4 +263,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHp: 2
+  maxHP: 3
   currentMp: 5
+  maxMP: 10
+--- !u!114 &6193641300568486031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4906634697567050908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0694e59e16d4aacb6906895459ab34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
