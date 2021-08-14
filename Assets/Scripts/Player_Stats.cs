@@ -19,6 +19,11 @@ public class Player_Stats : MonoBehaviour
         ClampCurrentValues();
     }
 
+    public void ChangeHealth(float amount) { currentHp = Mathf.Clamp(currentHp + amount, 0, maxHP); uI.SetBarSize(true, amount); }
+
+    public void ChangeMana(float amount) { currentMp = Mathf.Clamp(currentMp + amount, 0, maxMP); uI.SetBarSize(false, amount); }
+
+
     //Prevents having unwanted values, like having a current HP larger than max HP.
     //You could create a Custom Inspector to save you this lines of code!
     private void ClampCurrentValues()

@@ -87,6 +87,7 @@ GameObject:
   - component: {fileID: 7827868606374556195}
   - component: {fileID: 7622799967409204782}
   - component: {fileID: 365696422980225091}
+  - component: {fileID: -5549964435832403458}
   m_Layer: 5
   m_Name: MP_btn
   m_TagString: Untagged
@@ -195,4 +196,28 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7622799967409204782}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -5549964435832403458}
+        m_TargetAssemblyTypeName: ItemAbilities, Assembly-CSharp
+        m_MethodName: RestoreMana
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-5549964435832403458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7696455975253655499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2bd8b57804342029761a9a3845f833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
