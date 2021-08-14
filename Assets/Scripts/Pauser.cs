@@ -10,6 +10,12 @@ public class Pauser : MonoBehaviour
 
     private void Update()
     {
+        PauseUnpause();
+    }
+
+    //Pauses the game.
+    private void PauseUnpause()
+    {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             isPaused = !isPaused;
