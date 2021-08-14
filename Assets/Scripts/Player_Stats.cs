@@ -19,9 +19,23 @@ public class Player_Stats : MonoBehaviour
         ClampCurrentValues();
     }
 
-    public void ChangeHealth(float amount) { currentHp = Mathf.Clamp(currentHp + amount, 0, maxHP); uI.SetBarSize(true, amount); }
+    public bool ChangeHealth(float amount)
+    {
+        if (currentHp >= maxHP) { return false; }
 
-    public void ChangeMana(float amount) { currentMp = Mathf.Clamp(currentMp + amount, 0, maxMP); uI.SetBarSize(false, amount); }
+        currentHp = Mathf.Clamp(currentHp + amount, 0, maxHP);
+        uI.SetBarSize(true, amount);
+        return true;
+    }
+
+    public bool ChangeMana(float amount)
+    {
+        if (currentMp >= maxMP) { return false; }
+
+        currentMp = Mathf.Clamp(currentMp + amount, 0, maxMP);
+        uI.SetBarSize(false, amount);
+        return true;
+    }
 
 
     //Prevents having unwanted values, like having a current HP larger than max HP.

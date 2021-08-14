@@ -14,14 +14,12 @@ public class ItemAbilities : MonoBehaviour
     //Called in button.
     public void RestoreHealth(float healthToRestore)
     {
-        stats.ChangeHealth(healthToRestore);
-        Destroy(gameObject);
+        if (stats.ChangeHealth(healthToRestore)) { Destroy(gameObject); }
     }
 
     //Called in button.
     public void RestoreMana(float manaToRestore)
     {
-        stats.ChangeMana(manaToRestore);
-        Destroy(gameObject);
+        if (stats.ChangeMana(manaToRestore)) { Destroy(gameObject); }
     }
 }

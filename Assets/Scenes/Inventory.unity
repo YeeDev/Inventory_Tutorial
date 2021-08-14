@@ -457,6 +457,71 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &22853930
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683461, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6449232585124683463, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_Name
+      value: HP Potion (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196370113038211223, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196370113038211223, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,6 +1041,67 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1001 &2005528392
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.153
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.129
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205379, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122429269815205501, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_Name
+      value: MP Potion (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5721838321996033132, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
 --- !u!1001 &4122429268678462274
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1044,6 +1170,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1522417367212200056, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
+      propertyPath: currentHp
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522417367212200056, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
+      propertyPath: currentMp
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4906634697567050908, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
       propertyPath: m_Name
       value: Ben The Hero
