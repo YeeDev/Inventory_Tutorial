@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 4906634697567050906}
   - component: {fileID: 4906634697567050905}
   - component: {fileID: 1522417367212200056}
-  - component: {fileID: 6193641300568486031}
+  - component: {fileID: 3631542151460126513}
   m_Layer: 0
   m_Name: Ben The Hero
   m_TagString: Untagged
@@ -266,7 +266,7 @@ MonoBehaviour:
   maxHP: 3
   currentMp: 5
   maxMP: 10
---- !u!114 &6193641300568486031
+--- !u!114 &3631542151460126513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

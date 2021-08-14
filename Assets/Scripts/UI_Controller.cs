@@ -26,9 +26,7 @@ public class UI_Controller : MonoBehaviour
     public void SetMaxSize(float maxHP, float maxMP)
     {
         maxHPSize = hPSizePerPoint * maxHP;
-        print(maxHPSize);
         maxMPSize = mPSizePerPoint * maxMP;
-        print(maxMPSize);
     }
 
     //Adjust the size of any of the bars based on the passed bool.
