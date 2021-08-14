@@ -1097,6 +1097,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648846, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.47058827
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648846, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.4431373
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417654651648846, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.40000004
+      objectReference: {fileID: 0}
+    - target: {fileID: 5623417655006702745, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5623417655318671792, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
       propertyPath: m_Name
       value: UI
