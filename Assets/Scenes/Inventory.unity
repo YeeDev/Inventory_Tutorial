@@ -1031,6 +1031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MP Potion
       objectReference: {fileID: 0}
+    - target: {fileID: 5721838321996033132, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3403bfef25e4f489395ed6e851545f1b, type: 3}
 --- !u!1001 &4906634697453363613
@@ -1088,7 +1092,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6193641300568486031, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
 --- !u!1001 &5623417656047814193
 PrefabInstance:
@@ -1097,6 +1102,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5623417655006702745, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5623417655318671792, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
       propertyPath: m_Name
       value: UI
@@ -1241,6 +1250,14 @@ PrefabInstance:
     - target: {fileID: 6449232585124683463, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
       propertyPath: m_Name
       value: HP Potion
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196370113038211223, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_Radius
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9196370113038211223, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d090e952429b4a289dc5277741ccf54, type: 3}
