@@ -123,27 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &8942005 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5623417655318671792, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-  m_PrefabInstance: {fileID: 5623417656047814193}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8942011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8942005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 755af15427d6148d1bcb3af1058c2d7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hPSize: 11
-  heartBar: {fileID: 256281415}
-  mPSize: 13.8
-  manaBar: {fileID: 1114452405}
 --- !u!1 &19756069
 GameObject:
   m_ObjectHideFlags: 0
@@ -478,11 +457,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!224 &256281415 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5623417655006662879, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-  m_PrefabInstance: {fileID: 5623417656047814193}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -611,11 +585,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!224 &1114452405 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 5623417654814428629, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-  m_PrefabInstance: {fileID: 5623417656047814193}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1959378465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,6 +1040,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1522417367212200056, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
+      propertyPath: currentHp
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1522417367212200056, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
+      propertyPath: currentMp
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4906634697567050908, guid: ef2bef0dea2ee485eb331d3ef0cb28e1, type: 3}
       propertyPath: m_Name
       value: Ben The Hero
@@ -1128,46 +1105,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648844, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648846, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_Color.b
-      value: 0.47058827
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648846, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_Color.g
-      value: 0.4431373
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417654651648846, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_Color.r
-      value: 0.40000004
-      objectReference: {fileID: 0}
-    - target: {fileID: 5623417655006702745, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5623417655318671792, guid: d4c04a9be5ba24df1b021140821956e1, type: 3}
       propertyPath: m_Name
       value: UI

@@ -109,10 +109,10 @@ RectTransform:
   m_Father: {fileID: 5623417656165457740}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5623417654651648945
 CanvasRenderer:
@@ -135,7 +135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.40000004, g: 0.4431373, b: 0.47058827, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -297,7 +297,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 6, y: 0}
-  m_SizeDelta: {x: 138, y: 21}
+  m_SizeDelta: {x: 0, y: 21}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5623417654814428631
 CanvasRenderer:
@@ -372,7 +372,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 33, y: 10}
+  m_SizeDelta: {x: 0, y: 10}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!222 &5623417655006662849
 CanvasRenderer:
@@ -575,6 +575,7 @@ GameObject:
   - component: {fileID: 5623417655318671794}
   - component: {fileID: 5623417655318671795}
   - component: {fileID: 8329321922230682062}
+  - component: {fileID: 8942011}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -679,6 +680,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 5623417655006702745}
+--- !u!114 &8942011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5623417655318671792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755af15427d6148d1bcb3af1058c2d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hPSizePerPoint: 11
+  maxHPPoints: 3
+  heartBar: {fileID: 5623417655006662879}
+  mPSizePerPoint: 13.8
+  maxMPPoints: 10
+  manaBar: {fileID: 5623417654814428629}
 --- !u!1 &5623417655401267314
 GameObject:
   m_ObjectHideFlags: 0
